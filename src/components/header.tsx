@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Header = () => {
 	return (
 		<header>
-			<section className="flex justify-end py-4 px-2 gap-11 items-center">
+			<section className="flex justify-end py-4 px-11 gap-11 items-center bg-white">
 				<div className="relative">
 					<IoIosNotificationsOutline size={24} />
 					<div className="w-2 h-2 bg-[#FF3E3E] rounded absolute top-[2px] right-1"></div>
@@ -33,7 +33,7 @@ const Header = () => {
 					</div>
 				</div>
 			</section>
-			<section className="flex justify-end gap-5 py-[18px] items-center">
+			<section className="flex justify-end gap-5 px-9 py-[18px] items-center">
 				<Image
 					src="/thumbnail-1.png"
 					width={24}
@@ -48,11 +48,11 @@ const Header = () => {
 				/>
 				<h6 className="text-4 font-bold text-[#1F0954]">Manage Widgets</h6>
 			</section>
-			<section className="flex items-center justify-between bg-[#6F01D0] py-2 px-7 rounded-sm">
+			<section className="flex items-center justify-between bg-[#6F01D0] py-2 px-7 mx-9 rounded-sm">
 				<p className='text-white text-2xl font-semibold'>Welcome Aboard, Blessing 👋</p>
 				<p className='text-[#BDBDBD] text-5 font-semibold'>We're thrilled to have you join Techrity Team!</p>
 				<div className="px-6 bg-white py-2.5 rounded-lg">
-					<h6 className="text-4 font-bold text-[#1F0954]">Manage Widgets</h6>
+					<h6 className="text-4 font-bold text-[#1F0954]">Update Profile</h6>
 				</div>
 			</section>
 		</header>
