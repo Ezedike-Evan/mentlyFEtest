@@ -3,8 +3,9 @@ const Header = () => {
 	return (
 		<header>
 			<section className="flex justify-end py-4 px-13">
-				<div>
+				<div className='relative'>
 					<IoIosNotificationsOutline size={24} />
+					<div className='w-2 h-2 bg-[#FF3E3E] rounded absolute top-[2px] right-1'></div>
 				</div>
 			</section>
 			<section></section>
